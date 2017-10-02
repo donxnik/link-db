@@ -4,11 +4,13 @@
 }
 
 .header__content{
-	display:flex;
-	justify-content:space-between;
-	max-width:50rem;
-	margin:0 auto;
-	padding:1.4rem;
+  align-items: center;
+  display: flex;
+  height: $header-height;
+  justify-content: space-between;
+  max-width: $site-max-width;
+  margin: 0 auto;
+  padding: $space;
 }
 
 .header__title{
